@@ -5,11 +5,11 @@ let Count= (props)=>{
         props.set(props.number+1)
     }
     return(
-        <div id='incr-cnt`'>
+        <div id='incr-cnt'>
             <div className='cont'>
              <h1>My Todos</h1>   
             <div>Count : {props.number}</div>
-            <button onClick={adddata}>+</button>
+            <button onClick={adddata} id='incr-cnt'>+</button>
             </div>
         </div>
     )
