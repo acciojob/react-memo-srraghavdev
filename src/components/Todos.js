@@ -11,7 +11,7 @@ let Todos= (props)=>{
             {
                 props.arr.map((element)=>{
                     return(
-                        <div id={'todo-'+props.arr.length}>{element}</div>
+                        <div id={'todo-'+props.arr.length-1}>{element}</div>
                     )
                 })
             }
