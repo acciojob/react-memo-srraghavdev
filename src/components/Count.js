@@ -8,7 +8,7 @@ let Count= (props)=>{
         <div id='incr-cnt'>
             <div className='cont'>
              <h1>My Todos</h1>   
-            <div>Count : {props.number}</div>
+            <div id='calc'>{props.number}</div>
             <button onClick={adddata} id='incr-btn'>+</button>
             </div>
         </div>
