@@ -18,7 +18,7 @@ let Memo= (props)=>{
             </div>
             <ul>
             {  props.arr.map(element=>{
-                    return <li>{element}</li>
+                    return <li id={'item-'+string}>{element}</li>
             })
             }
             </ul>
