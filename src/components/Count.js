@@ -5,7 +5,7 @@ let Count= (props)=>{
         props.set(props.number+1)
     }
     return(
-        <div>
+        <div id='incr-cnt`'>
             <div className='cont'>
              <h1>My Todos</h1>   
             <div>Count : {props.number}</div>

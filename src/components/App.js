@@ -12,7 +12,7 @@ let App = () =>{
     let [memo,Setmemo]=useState(['HTMLL',"CSSS3"])
     let [count,Setcount]=useState(0)
     return(
-        <div>
+        <div id='main'>
         <h1>React.useMEMo</h1>
         <Todos set={Settodos} arr={todos} />
         <Count set={Setcount} number={count}/>

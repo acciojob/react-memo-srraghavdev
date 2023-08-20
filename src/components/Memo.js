@@ -13,8 +13,8 @@ let Memo= (props)=>{
         <div>
             <div className='cont'>
             <h1>React.memo</h1>    
-            <input type='text' onChange={(event)=>Setstring(event.target.value)} value={string}></input>
-            <button onClick={adddata}>Add Skill</button>
+            <input type='text' onChange={(event)=>Setstring(event.target.value)} value={string} id='skill-input'></input>
+            <button onClick={adddata} id='skill-btn'>Add Skill</button>
             </div>
             <ul>
             {  props.arr.map(element=>{
