@@ -17,7 +17,7 @@ let App = () =>{
         <Todos set={Settodos} arr={todos} />
         <Count set={Setcount} number={count}/>
         <h1>Expensive Calculation</h1>
-        <div>10000000000000</div>
+        <div id='calc'>1000000000</div>
         <Memo set={Setmemo} arr={memo} />
         </div>
     )

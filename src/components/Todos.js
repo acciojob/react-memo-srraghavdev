@@ -9,9 +9,9 @@ let Todos= (props)=>{
             <div className='cont'>
              <h1>My Todos</h1>   
             {
-                props.arr.map((element)=>{
+                props.arr.map((element,index)=>{
                     return(
-                        <div id={'todo-'+props.arr.length-1}>{element}</div>
+                        <div id={'todo-'+index}>{element}</div>
                     )
                 })
             }
